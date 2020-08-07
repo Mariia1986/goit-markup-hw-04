@@ -113,11 +113,13 @@ body {
   height: 12px;
   width: 16px;
   margin-right: 10px;
+  fill: currentColor;
 }
 .icon-tel {
   width: 10px;
   height: 16px;
   margin-right: 10px;
+  fill: currentColor;
 }
 
 .menu-links .contacts + .contacts {
@@ -300,6 +302,23 @@ body {
 }
 .section-list-clients:nth-child(6n) {
   margin-right: 0px;
+}
+.clients-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid var(--primary-text-color);
+  border-radius: 4px;
+}
+.clients-link:hover,
+.clients-link:focus {
+  border-color: var(--accent-color);
+}
+
+.clients {
+  fill: currentColor;
 }
 /*Секция "Футер"*/
 .footer {
