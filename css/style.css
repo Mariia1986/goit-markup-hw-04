@@ -106,7 +106,7 @@ body {
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.02em;
-  align-items: baseline;
+  vertical-align: center;
 }
 .icon-male {
   height: 12px;
@@ -123,7 +123,9 @@ body {
   margin-left: 30px;
 }
 .menu-links {
+  display: flex;
   margin-left: auto;
+  align-items: center;
 }
 
 /*Герой*/
@@ -210,6 +212,16 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+
+.icon-block {
+  display: flex;
+  height: 120px;
+  width: 270px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-button-color);
+  margin-bottom: 20px;
 }
 
 /*Секция "Чем мы занимаемся"*/
