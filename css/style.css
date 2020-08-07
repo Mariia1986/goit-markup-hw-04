@@ -6,6 +6,7 @@ font-family: "Roboto", sans-serif;*/
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
+  --footer-socialnetworks-color: rgba(255, 255, 255, 0.1);
   --footer-background-color: #2f303a;
   --activity-background-color: rgba(47, 48, 58, 0.8);
   --background-button-color: #f5f4fa;
@@ -188,6 +189,7 @@ body {
 .section-list-item {
   width: calc((100% - 30px * 3) / 4);
   margin-right: 30px;
+  background-color: var(--primary-white-color);
 }
 
 .section-list-item:nth-child(4n) {
@@ -265,7 +267,31 @@ body {
   margin-left: 10px;
   text-align: center;
 }
-
+.social-network-item {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  width: 44px;
+  background-color: var(--primary-white-color);
+  border-radius: 50%;
+}
+.social-network-item:hover,
+.social-network-item:focus {
+  background-color: var(--accent-color);
+  fill: var(--primary-white-color);
+}
+.social-icons:hover,
+.social-icons:focus {
+  fill: var(--primary-white-color);
+}
+.social-networks-list {
+  justify-content: center;
+}
+.social-icons {
+  fill: var(--primary-text-color);
+}
+.
 /*секция "Постянные клиенты"*/
 .section-list-clients {
   width: calc((100% - 30px * 5) / 6);
@@ -298,6 +324,22 @@ body {
 }
 .logo-end-footer {
   color: var(--primary-white-color);
+}
+.social-network-footer {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  width: 44px;
+  background-color: var(--footer-socialnetworks-color);
+  border-radius: 50%;
+}
+.social-network-footer:hover,
+.social-network-footer:focus {
+  background-color: var(--accent-color);
+}
+.social-icons-footer {
+  fill: var(--primary-white-color);
 }
 .footer-contacts {
   font-weight: 400;
