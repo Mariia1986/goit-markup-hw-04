@@ -134,11 +134,15 @@ body {
 /*Герой*/
 
 .hero {
-  background-image: linear-gradient(
+  background-image: url(../images/bgimg.jpg), linear-gradient(
       var(--ovelay-bgrimage-color) 100%,
+<<<<<<< HEAD
       var(--ovelay-bgrimage-color) 100%
     ),
     url(../images/bgimg.jpg);
+=======
+      var(--ovelay-bgrimage-color) 100%);
+>>>>>>> 9b2d9ad11d766d212632dfdef5a58926fd22d5f4
   padding: 200px 0;
   text-align: center;
 }
